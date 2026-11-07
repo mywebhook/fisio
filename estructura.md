@@ -21,7 +21,7 @@ por WhatsApp; guardarlas en Supabase es opcional (`reserva.guardarEnSupabase` en
 ## 2. Carpetas
 
 ```
-html/
+fisio/
 ├── index.html                 ← portada (SEO y Open Graph escritos a mano)
 ├── blog.html                  ← listado y artículo (?a=<slug>)
 ├── privacidad.html            ← aviso de privacidad (datos desde info.json)

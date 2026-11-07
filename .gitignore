@@ -1,9 +1,14 @@
-node_modules
-.next
-out
-build
-*.tsbuildinfo
-.env*.local
+# Sistema operativo
 .DS_Store
-npm-debug.log*
-.vercel
+Thumbs.db
+
+# Variables locales y secretos (nunca subir tokens)
+.env
+.env*.local
+*.pem
+
+# Registros
+*.log
+
+# Editores
+.idea/
