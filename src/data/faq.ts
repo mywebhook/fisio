@@ -1,8 +1,9 @@
 import type { FaqItem } from "@/types/content";
 
 /**
- * Preguntas frecuentes. Las respuestas con [corchetes] deben completarse
- * con las políticas reales de atención. No inventar condiciones.
+ * Preguntas frecuentes.
+ * ⚠️ Las respuestas sobre duración, horarios y cobertura son de DEMOSTRACIÓN:
+ * ajústalas a las políticas reales de atención.
  */
 export const faq: FaqItem[] = [
   {
@@ -14,18 +15,20 @@ export const faq: FaqItem[] = [
   {
     id: "duracion",
     question: "¿Cuánto dura una sesión?",
-    answer: "[Indica la duración habitual de una sesión y de la primera evaluación.]",
+    answer:
+      "La primera evaluación dura alrededor de 60 minutos. Las sesiones de seguimiento suelen durar entre 40 y 45 minutos, según el tratamiento.",
   },
   {
     id: "primera-consulta",
     question: "¿Qué debo llevar a mi primera consulta?",
     answer:
-      "[Indica qué conviene llevar: por ejemplo, ropa cómoda, estudios o informes médicos previos si los tienes, y la indicación médica si corresponde.]",
+      "Ropa cómoda que permita moverte con libertad y, si los tienes, estudios o informes médicos previos (radiografías, resonancias, indicaciones de tu médico).",
   },
   {
     id: "domicilio",
     question: "¿Atiendes a domicilio?",
-    answer: "[Indica si ofreces atención a domicilio, en qué zonas y cómo se coordina.]",
+    answer:
+      "Sí. Atiendo a domicilio en Zona Norte, Queru Queru, Cala Cala y Sarco. Elige la modalidad «Atención a domicilio» en el formulario y coordinamos el horario.",
   },
   {
     id: "tratamientos",
@@ -37,6 +40,6 @@ export const faq: FaqItem[] = [
     id: "llegar",
     question: "¿Cómo puedo llegar al consultorio?",
     answer:
-      "En la sección de contacto encontrarás la dirección, el mapa y un botón para abrir la ruta en Google Maps desde tu teléfono.",
+      "El consultorio está en la Av. Los Álamos 1245 (Zona Norte). En la sección de contacto encontrarás el mapa y un botón para abrir la ruta en Google Maps desde tu teléfono.",
   },
 ];

@@ -6,6 +6,8 @@ import type { Treatment } from "@/types/content";
  * - `duration`: duración orientativa ("45 min"). null = "Duración a consultar".
  * - `price`: opcional; si no se define no se muestra.
  * Importante: describir objetivos, nunca garantizar resultados.
+ *
+ * ⚠️ Duraciones y precios de DEMOSTRACIÓN (ficticios).
  */
 export const treatments: Treatment[] = [
   {
@@ -14,9 +16,10 @@ export const treatments: Treatment[] = [
     name: "Evaluación fisioterapéutica",
     description: "Primera consulta para conocerte, escuchar tu historia y valorar tu movimiento antes de proponer un plan.",
     goal: "Comprender tu situación y definir juntos objetivos realistas.",
-    duration: null,
-    image: "/images/treatments/evaluacion.svg",
-    imageAlt: "Fisioterapeuta realizando una evaluación del movimiento",
+    duration: "60 min",
+    price: "Bs 150",
+    image: "/images/treatments/evaluacion.jpg",
+    imageAlt: "Fisioterapeuta evaluando la movilidad del hombro de una paciente",
   },
   {
     id: "terapia-manual",
@@ -24,8 +27,9 @@ export const treatments: Treatment[] = [
     name: "Terapia manual",
     description: "Movilizaciones y técnicas sobre tejidos blandos aplicadas de forma suave y progresiva.",
     goal: "Favorecer la movilidad y contribuir al alivio de molestias.",
-    duration: null,
-    image: "/images/treatments/terapia-manual.svg",
+    duration: "45 min",
+    price: "Bs 130",
+    image: "/images/treatments/terapia-manual.jpg",
     imageAlt: "Sesión de terapia manual en camilla",
   },
   {
@@ -34,29 +38,32 @@ export const treatments: Treatment[] = [
     name: "Ejercicio terapéutico",
     description: "Programa de ejercicios adaptado a ti, con indicaciones claras para realizar también en casa.",
     goal: "Mejorar fuerza, control y resistencia de forma progresiva.",
-    duration: null,
-    image: "/images/treatments/ejercicio.svg",
-    imageAlt: "Paciente realizando ejercicio terapéutico guiado",
+    duration: "45 min",
+    price: "Bs 120",
+    image: "/images/treatments/ejercicio.jpg",
+    imageAlt: "Fisioterapeuta guiando un ejercicio de elevación de pierna",
   },
   {
-    id: "electroterapia",
+    id: "estiramientos",
     enabled: true,
-    name: "Electroterapia y agentes físicos",
-    description: "Uso de equipos como complemento del tratamiento, siempre que esté indicado tras la evaluación.",
-    goal: "Complementar el abordaje manual y el ejercicio.",
-    duration: null,
-    image: "/images/treatments/electroterapia.svg",
-    imageAlt: "Equipo de electroterapia en el consultorio",
+    name: "Estiramientos asistidos",
+    description: "Estiramientos guiados y acompañados para trabajar la flexibilidad con seguridad y sin forzar.",
+    goal: "Ganar amplitud de movimiento de forma progresiva.",
+    duration: "40 min",
+    price: "Bs 110",
+    image: "/images/treatments/estiramientos.jpg",
+    imageAlt: "Fisioterapeuta asistiendo un estiramiento de pierna",
   },
   {
-    id: "vendaje",
+    id: "movilizacion",
     enabled: true,
-    name: "Vendaje neuromuscular",
-    description: "Aplicación de cintas elásticas como apoyo durante el proceso de recuperación o la actividad.",
-    goal: "Acompañar el movimiento como recurso complementario.",
-    duration: null,
-    image: "/images/treatments/vendaje.svg",
-    imageAlt: "Aplicación de vendaje neuromuscular en la rodilla",
+    name: "Movilización articular",
+    description: "Movimientos pasivos y controlados de las articulaciones, adaptados a tu tolerancia.",
+    goal: "Contribuir a recuperar la movilidad de la articulación.",
+    duration: "40 min",
+    price: "Bs 120",
+    image: "/images/treatments/movilizacion.jpg",
+    imageAlt: "Movilización del tobillo de un paciente en camilla",
   },
   {
     id: "domicilio",
@@ -64,8 +71,9 @@ export const treatments: Treatment[] = [
     name: "Rehabilitación a domicilio",
     description: "Sesiones en la comodidad de tu hogar para quienes tienen dificultades para desplazarse.",
     goal: "Facilitar la continuidad del tratamiento en tu entorno.",
-    duration: null,
-    image: "/images/treatments/domicilio.svg",
-    imageAlt: "Sesión de fisioterapia en el hogar del paciente",
+    duration: "60 min",
+    price: "Bs 200",
+    image: "/images/treatments/domicilio.jpg",
+    imageAlt: "Fisioterapeuta conversando con pacientes en un ambiente de hogar",
   },
 ];

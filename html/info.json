@@ -1,0 +1,243 @@
+{
+  "_nota": "Fuente única de datos del sitio. PERFIL DE DEMOSTRACIÓN: todos los datos son ficticios. En la Fase 3 este archivo lo reemplaza la Edge Function al publicar desde admin.html.",
+  "demo": true,
+
+  "perfil": {
+    "nombre": "Valeria Montaño",
+    "nombreCorto": "Valeria",
+    "profesion": "Fisioterapeuta",
+    "matricula": "MP-4821",
+    "frase": "Recupera tu movimiento, mejora tu bienestar y vuelve a disfrutar cada momento.",
+    "presentacion": "Atención fisioterapéutica personalizada, enfocada en acompañarte durante tu proceso de recuperación y mejorar tu calidad de vida.",
+    "fotoHero": "img/perfil/hero.webp",
+    "fotoHeroAlt": "Valeria Montaño, fisioterapeuta, durante una sesión de tratamiento",
+    "fotoSobreMi": "img/perfil/sobre-mi.webp",
+    "fotoSobreMiAlt": "Valeria Montaño guiando un ejercicio de movilidad en su consultorio"
+  },
+
+  "sobreMi": {
+    "titulo": "Acompañarte en cada paso de tu recuperación",
+    "biografia": [
+      "Soy Valeria, fisioterapeuta. Elegí esta profesión porque me apasiona ver cómo las personas recuperan la confianza en su cuerpo y vuelven a hacer lo que disfrutan: caminar sin molestias, volver a entrenar o jugar con sus hijos.",
+      "En cada primera sesión dedico tiempo a escucharte y a entender qué te ocurre. Te explico lo que encontramos, definimos juntos los objetivos y te acompaño con un plan claro, revisando tu evolución en cada encuentro."
+    ],
+    "formacion": [
+      { "titulo": "Licenciatura en Fisioterapia y Kinesiología", "institucion": "Universidad del Valle Andino", "anio": "2014" },
+      { "titulo": "Diplomado en Terapia Manual Ortopédica", "institucion": "Instituto Andino de Ciencias del Movimiento", "anio": "2017" },
+      { "titulo": "Curso de Rehabilitación de Lesiones Deportivas", "institucion": "Escuela Latinoamericana de Fisioterapia", "anio": "2019" }
+    ],
+    "experiencia": [
+      { "cargo": "Fisioterapeuta", "lugar": "Consulta privada", "periodo": "2018 – actualidad" },
+      { "cargo": "Fisioterapeuta de planta", "lugar": "Centro de Rehabilitación Integral Los Pinos", "periodo": "2014 – 2018" }
+    ],
+    "filosofia": "Creo en una fisioterapia cercana y bien explicada. Cada persona es distinta, por eso adapto el tratamiento a tu historia, tus objetivos y tu ritmo, y te enseño herramientas para que seas protagonista de tu recuperación.",
+    "compromiso": "Puntualidad, comunicación clara, respeto y confidencialidad. Te acompaño con seguimiento cercano y siempre te digo con honestidad qué podemos esperar del proceso."
+  },
+
+  "contacto": {
+    "whatsapp": "59170000000",
+    "telefono": "+59170000000",
+    "telefonoVisible": "+591 700 00000",
+    "email": "contacto@valeriamontanofisio.com",
+    "direccion": "Av. Los Álamos 1245, consultorio 3",
+    "zona": "Zona Norte",
+    "ciudad": "Cochabamba",
+    "region": "Cochabamba",
+    "pais": "Bolivia",
+    "mapaBusqueda": "Cochabamba, Bolivia",
+    "mapaUrl": "",
+    "comoLlegar": "A dos cuadras de la plaza principal de la Zona Norte. Hay estacionamiento en la calle y paradas de transporte público cercanas.",
+    "horarios": [
+      { "dias": "Lunes a viernes", "horas": "08:00 – 19:00" },
+      { "dias": "Sábados", "horas": "08:00 – 13:00" },
+      { "dias": "Domingos y feriados", "horas": "Cerrado" }
+    ],
+    "domicilio": { "activo": true, "zonas": "Zona Norte, Queru Queru, Cala Cala y Sarco" },
+    "mensajeWhatsapp": "Hola, Valeria. Vi tu página web y me gustaría recibir información sobre una consulta de fisioterapia."
+  },
+
+  "redes": {
+    "instagram": "https://www.instagram.com/",
+    "facebook": "https://www.facebook.com/",
+    "tiktok": "https://www.tiktok.com/"
+  },
+
+  "reserva": {
+    "franjas": ["Mañana", "Mediodía", "Tarde", "Sin preferencia"],
+    "diasMaximos": 90,
+    "guardarEnSupabase": false
+  },
+
+  "seo": {
+    "url": "https://fisio.pages.dev",
+    "titulo": "Valeria Montaño | Fisioterapeuta en Cochabamba",
+    "descripcion": "Fisioterapia personalizada en Cochabamba: rehabilitación física, fisioterapia deportiva y terapia manual, en consultorio y a domicilio. Solicita tu cita por WhatsApp."
+  },
+
+  "legal": {
+    "responsable": "Valeria Montaño Rojas",
+    "actualizado": "2026-11-07"
+  },
+
+  "especialidades": [
+    { "id": "traumatologica", "activa": true, "destacada": true, "nombre": "Fisioterapia traumatológica", "corto": "Traumatológica", "icono": "bone", "descripcion": "Abordaje de lesiones de músculos, articulaciones, huesos y ligamentos, como esguinces, contracturas o tendinopatías." },
+    { "id": "deportiva", "activa": true, "destacada": true, "nombre": "Fisioterapia deportiva", "corto": "Deportiva", "icono": "dumbbell", "descripcion": "Acompañamiento a personas activas y deportistas en la prevención de lesiones y el retorno progresivo a la actividad." },
+    { "id": "postoperatoria", "activa": true, "nombre": "Rehabilitación postoperatoria", "corto": "Postoperatoria", "icono": "heart-pulse", "descripcion": "Recuperación funcional después de una cirugía, coordinada con las indicaciones de tu equipo médico." },
+    { "id": "terapia-manual", "activa": true, "destacada": true, "nombre": "Terapia manual", "corto": "Terapia manual", "icono": "hand", "descripcion": "Técnicas aplicadas con las manos para trabajar la movilidad de tejidos y articulaciones y aliviar molestias." },
+    { "id": "neurologica", "activa": true, "nombre": "Fisioterapia neurológica", "corto": "Neurológica", "icono": "brain", "descripcion": "Trabajo orientado a la funcionalidad, el equilibrio y la autonomía en personas con afecciones neurológicas." },
+    { "id": "postural", "activa": true, "nombre": "Reeducación postural", "corto": "Postural", "icono": "person-standing", "descripcion": "Ejercicios y pautas para tomar conciencia de tu postura y adaptarla a tu día a día." },
+    { "id": "pediatrica", "activa": true, "nombre": "Fisioterapia pediátrica", "corto": "Pediátrica", "icono": "baby", "descripcion": "Atención adaptada a bebés, niñas y niños, acompañando su desarrollo motor junto a la familia." },
+    { "id": "adultos-mayores", "activa": true, "nombre": "Fisioterapia para adultos mayores", "corto": "Adultos mayores", "icono": "accessibility", "descripcion": "Ejercicio y trabajo funcional para mantener la movilidad, el equilibrio y la independencia." },
+    { "id": "piso-pelvico", "activa": true, "nombre": "Piso pélvico", "corto": "Piso pélvico", "icono": "flower", "descripcion": "Valoración y tratamiento de la musculatura del suelo pélvico en distintas etapas de la vida." }
+  ],
+
+  "tratamientos": [
+    { "id": "evaluacion", "activo": true, "nombre": "Evaluación fisioterapéutica", "descripcion": "Primera consulta para conocerte, escuchar tu historia y valorar tu movimiento antes de proponer un plan.", "objetivo": "Comprender tu situación y definir juntos objetivos realistas.", "duracion": "60 min", "precio": "Bs 150", "foto": "img/tratamientos/evaluacion.webp", "fotoAlt": "Fisioterapeuta evaluando la movilidad del hombro de una paciente" },
+    { "id": "terapia-manual", "activo": true, "nombre": "Terapia manual", "descripcion": "Movilizaciones y técnicas sobre tejidos blandos aplicadas de forma suave y progresiva.", "objetivo": "Favorecer la movilidad y contribuir al alivio de molestias.", "duracion": "45 min", "precio": "Bs 130", "foto": "img/tratamientos/terapia-manual.webp", "fotoAlt": "Sesión de terapia manual en camilla" },
+    { "id": "ejercicio-terapeutico", "activo": true, "nombre": "Ejercicio terapéutico", "descripcion": "Programa de ejercicios adaptado a ti, con indicaciones claras para realizar también en casa.", "objetivo": "Mejorar fuerza, control y resistencia de forma progresiva.", "duracion": "45 min", "precio": "Bs 120", "foto": "img/tratamientos/ejercicio.webp", "fotoAlt": "Fisioterapeuta guiando un ejercicio de elevación de pierna" },
+    { "id": "estiramientos", "activo": true, "nombre": "Estiramientos asistidos", "descripcion": "Estiramientos guiados y acompañados para trabajar la flexibilidad con seguridad y sin forzar.", "objetivo": "Ganar amplitud de movimiento de forma progresiva.", "duracion": "40 min", "precio": "Bs 110", "foto": "img/tratamientos/estiramientos.webp", "fotoAlt": "Fisioterapeuta asistiendo un estiramiento de pierna" },
+    { "id": "movilizacion", "activo": true, "nombre": "Movilización articular", "descripcion": "Movimientos pasivos y controlados de las articulaciones, adaptados a tu tolerancia.", "objetivo": "Contribuir a recuperar la movilidad de la articulación.", "duracion": "40 min", "precio": "Bs 120", "foto": "img/tratamientos/movilizacion.webp", "fotoAlt": "Movilización del tobillo de un paciente en camilla" },
+    { "id": "domicilio", "activo": true, "nombre": "Rehabilitación a domicilio", "descripcion": "Sesiones en la comodidad de tu hogar para quienes tienen dificultades para desplazarse.", "objetivo": "Facilitar la continuidad del tratamiento en tu entorno.", "duracion": "60 min", "precio": "Bs 200", "foto": "img/tratamientos/domicilio.webp", "fotoAlt": "Fisioterapeuta conversando con pacientes en un ambiente de hogar" }
+  ],
+
+  "razones": [
+    { "activa": true, "titulo": "Atención personalizada", "descripcion": "Cada sesión se adapta a tu situación, tus objetivos y tu ritmo.", "icono": "user-round" },
+    { "activa": true, "titulo": "Evaluación individual", "descripcion": "Antes de cualquier tratamiento, dedicamos tiempo a entender qué te ocurre.", "icono": "clipboard-check" },
+    { "activa": true, "titulo": "Seguimiento del proceso", "descripcion": "Revisamos juntos tu evolución y ajustamos el plan cuando es necesario.", "icono": "line-chart" },
+    { "activa": true, "titulo": "Trato cercano", "descripcion": "Un espacio de confianza donde puedes preguntar todo lo que necesites.", "icono": "heart-handshake" },
+    { "activa": true, "titulo": "Enfoque profesional", "descripcion": "Trabajo responsable, explicando cada paso y respetando tus decisiones.", "icono": "shield-check" },
+    { "activa": true, "titulo": "Instalaciones adecuadas", "descripcion": "Un entorno cómodo, limpio y preparado para tu sesión.", "icono": "sparkles" }
+  ],
+
+  "instalaciones": [
+    { "foto": "img/instalaciones/sala.webp", "alt": "Sala de tratamiento luminosa con camilla", "titulo": "Sala de tratamiento" },
+    { "foto": "img/instalaciones/camilla.webp", "alt": "Paciente realizando ejercicios en la camilla", "titulo": "Camilla de tratamiento" },
+    { "foto": "img/instalaciones/evaluacion.webp", "alt": "Zona de evaluación postural junto a la ventana", "titulo": "Zona de evaluación" },
+    { "foto": "img/instalaciones/detalles.webp", "alt": "Detalles decorativos del consultorio en tonos claros", "titulo": "Detalles del espacio" },
+    { "foto": "img/instalaciones/recepcion.webp", "alt": "Escritorio de recepción con computadora", "titulo": "Recepción" },
+    { "foto": "img/instalaciones/ambiente.webp", "alt": "Sesión de fisioterapia en un ambiente tranquilo", "titulo": "Ambiente de atención" }
+  ],
+
+  "testimonios": [
+    { "autor": "Carla M.", "texto": "Llegué con mucho dolor de espalda y miedo a moverme. Valeria me explicó todo con paciencia y me dio ejercicios fáciles de seguir en casa. Me sentí acompañada en todo momento.", "calificacion": 5, "fecha": "2026-09-18" },
+    { "autor": "Jorge R.", "texto": "Después de mi operación de rodilla necesitaba volver a caminar con confianza. Las sesiones a domicilio fueron una gran ayuda y siempre fue muy puntual y profesional.", "calificacion": 5, "fecha": "2026-08-02" },
+    { "autor": "Andrea P.", "texto": "Corro desde hace años y una lesión me tenía parada. Me encantó que me explicara el porqué de cada ejercicio y que el retorno a correr fuera progresivo.", "calificacion": 5, "fecha": "2026-07-11" },
+    { "autor": "Familia G. S.", "texto": "Atendió a mi mamá en casa con muchísimo cariño y respeto. Nos enseñó cómo ayudarla en el día a día. Se nota la vocación.", "calificacion": 5, "fecha": "2026-05-27" },
+    { "autor": "Luis A.", "texto": "Trabajo muchas horas sentado y tenía molestias en el cuello. Además del tratamiento, me dio consejos prácticos para mi escritorio que me sirvieron mucho.", "calificacion": 4, "fecha": "2026-04-09" }
+  ],
+
+  "preguntas": [
+    { "pregunta": "¿Cómo puedo reservar una cita?", "respuesta": "Completa el formulario de solicitud de cita de esta página o escríbeme por WhatsApp. Tu solicitud se enviará con los datos que indiques y te responderé para confirmar el día y la hora. La cita queda reservada únicamente cuando recibes mi confirmación." },
+    { "pregunta": "¿Cuánto dura una sesión?", "respuesta": "La primera evaluación dura alrededor de 60 minutos. Las sesiones de seguimiento suelen durar entre 40 y 45 minutos, según el tratamiento." },
+    { "pregunta": "¿Qué debo llevar a mi primera consulta?", "respuesta": "Ropa cómoda que permita moverte con libertad y, si los tienes, estudios o informes médicos previos (radiografías, resonancias, indicaciones de tu médico)." },
+    { "pregunta": "¿Atiendes a domicilio?", "respuesta": "Sí. Atiendo a domicilio en Zona Norte, Queru Queru, Cala Cala y Sarco. Elige la modalidad «Atención a domicilio» en el formulario y coordinamos el horario." },
+    { "pregunta": "¿Qué tratamientos realizas?", "respuesta": "Puedes ver las especialidades y tratamientos en las secciones correspondientes de esta página. El abordaje adecuado para ti se define siempre después de una evaluación individual." },
+    { "pregunta": "¿Cómo puedo llegar al consultorio?", "respuesta": "El consultorio está en la Av. Los Álamos 1245 (Zona Norte). En la sección de contacto encontrarás el mapa y un botón para abrir la ruta en Google Maps desde tu teléfono." }
+  ],
+
+  "articulos": [
+    {
+      "slug": "pausas-activas-trabajo-escritorio",
+      "titulo": "Pausas activas: cómo cuidar tu cuerpo si trabajas sentado",
+      "categoria": "Salud postural",
+      "fecha": "2026-10-28",
+      "resumen": "Pasar muchas horas frente a una pantalla es habitual. Pequeños cambios a lo largo del día pueden ayudarte a sentirte mejor.",
+      "foto": "img/blog/postura.webp",
+      "fotoAlt": "Persona sentada en un sofá en una sala luminosa",
+      "minutos": 4,
+      "contenido": [
+        { "tipo": "p", "texto": "Muchas personas pasan buena parte del día sentadas. No existe una única postura «perfecta»: lo que suele ayudar es cambiar de posición con frecuencia y mantener el cuerpo en movimiento." },
+        { "tipo": "h2", "texto": "Ideas sencillas para tu jornada" },
+        { "tipo": "ul", "items": ["Levántate y camina unos minutos cada cierto tiempo; puedes programar un recordatorio.", "Ajusta la pantalla para que quede aproximadamente a la altura de tus ojos.", "Apoya los pies en el suelo o en un reposapiés y acerca la silla a la mesa.", "Alterna tareas que puedas hacer de pie, como llamadas telefónicas."] },
+        { "tipo": "h2", "texto": "Movimiento, más que rigidez" },
+        { "tipo": "p", "texto": "La Organización Mundial de la Salud recomienda limitar el tiempo sedentario y sustituirlo por actividad física de cualquier intensidad. Moverse a lo largo del día es una forma accesible de empezar." },
+        { "tipo": "p", "texto": "Si tienes molestias que persisten o empeoran, lo recomendable es consultar con un profesional para valorar tu caso." }
+      ],
+      "fuentes": [{ "texto": "Organización Mundial de la Salud (2020). Directrices de la OMS sobre actividad física y hábitos sedentarios.", "url": "https://www.who.int/publications/i/item/9789240015128" }]
+    },
+    {
+      "slug": "calentamiento-prevencion-lesiones",
+      "titulo": "Calentar antes de entrenar: por qué no deberías saltártelo",
+      "categoria": "Prevención de lesiones",
+      "fecha": "2026-10-14",
+      "resumen": "Preparar el cuerpo antes de la actividad física es un hábito sencillo que te ayuda a empezar con mayor control.",
+      "foto": "img/blog/prevencion.webp",
+      "fotoAlt": "Fisioterapeuta trabajando la movilidad del pie de un paciente",
+      "minutos": 3,
+      "contenido": [
+        { "tipo": "p", "texto": "El calentamiento prepara al cuerpo de forma gradual para el esfuerzo. Suele incluir movimientos suaves que aumentan progresivamente su intensidad." },
+        { "tipo": "h2", "texto": "Un calentamiento básico puede incluir" },
+        { "tipo": "ul", "items": ["Unos minutos de actividad suave, como caminar rápido o pedalear.", "Movilidad de las articulaciones que vas a utilizar.", "Ejercicios parecidos a los del entrenamiento, empezando con menor intensidad."] },
+        { "tipo": "p", "texto": "Aumentar la carga de entrenamiento de manera progresiva y respetar el descanso también forman parte de una práctica deportiva responsable." },
+        { "tipo": "p", "texto": "Cada persona y cada deporte tienen necesidades diferentes. Una valoración profesional puede ayudarte a diseñar una rutina adecuada para ti." }
+      ]
+    },
+    {
+      "slug": "movilidad-dia-a-dia",
+      "titulo": "Movilidad en el día a día: pequeños gestos que suman",
+      "categoria": "Movilidad",
+      "fecha": "2026-09-30",
+      "resumen": "Mantenerte en movimiento no requiere grandes rutinas. Integrar la movilidad en tu día puede ser más fácil de lo que crees.",
+      "foto": "img/blog/movilidad.webp",
+      "fotoAlt": "Persona estirando los brazos en una sala luminosa",
+      "minutos": 3,
+      "contenido": [
+        { "tipo": "p", "texto": "La movilidad es la capacidad de mover las articulaciones con comodidad y control. Mantenerla activa forma parte del cuidado de nuestro cuerpo a lo largo de la vida." },
+        { "tipo": "h2", "texto": "Ideas para incorporar movimiento" },
+        { "tipo": "ul", "items": ["Aprovecha los desplazamientos para caminar cuando sea posible.", "Dedica unos minutos por la mañana a moverte suavemente.", "Busca una actividad que disfrutes: bailar, nadar, pasear o hacer yoga."] },
+        { "tipo": "p", "texto": "Escucha a tu cuerpo: el movimiento no debería provocar dolor intenso. Si aparece, detente y consulta con un profesional." }
+      ],
+      "fuentes": [{ "texto": "Organización Mundial de la Salud (2020). Directrices de la OMS sobre actividad física y hábitos sedentarios.", "url": "https://www.who.int/publications/i/item/9789240015128" }]
+    },
+    {
+      "slug": "que-esperar-recuperacion-fisica",
+      "titulo": "Qué esperar durante un proceso de recuperación física",
+      "categoria": "Recuperación física",
+      "fecha": "2026-09-16",
+      "resumen": "Conocer cómo suele ser un proceso de rehabilitación ayuda a vivirlo con más tranquilidad y constancia.",
+      "foto": "img/blog/recuperacion.webp",
+      "fotoAlt": "Sesión de rehabilitación acompañada por una fisioterapeuta",
+      "minutos": 4,
+      "contenido": [
+        { "tipo": "p", "texto": "Cada proceso de recuperación es único. Depende de la persona, del motivo de consulta, de sus objetivos y de muchos otros factores." },
+        { "tipo": "h2", "texto": "Aspectos que suelen formar parte del proceso" },
+        { "tipo": "ul", "items": ["Una evaluación inicial para comprender tu situación.", "Objetivos compartidos y realistas.", "Sesiones en consulta y, a menudo, ejercicios para realizar en casa.", "Revisiones periódicas para ajustar el plan."] },
+        { "tipo": "p", "texto": "La comunicación es clave: comentar cómo te sientes, tus dudas y tus avances permite adaptar el trabajo a lo que necesitas." },
+        { "tipo": "p", "texto": "Si te han operado o tienes una indicación médica, el tratamiento de fisioterapia se coordina con esas indicaciones." }
+      ]
+    },
+    {
+      "slug": "ejercicio-terapeutico-en-casa",
+      "titulo": "Ejercicio terapéutico en casa: claves para hacerlo bien",
+      "categoria": "Ejercicio terapéutico",
+      "fecha": "2026-09-02",
+      "resumen": "Los ejercicios que te indica tu fisioterapeuta son parte del tratamiento. Te compartimos algunas claves para mantener la constancia.",
+      "foto": "img/blog/ejercicio.webp",
+      "fotoAlt": "Fisioterapeuta acompañando un ejercicio en camilla",
+      "minutos": 3,
+      "contenido": [
+        { "tipo": "p", "texto": "El ejercicio terapéutico es un programa de ejercicios pautado por un profesional según tu situación. Realizarlo en casa da continuidad al trabajo de las sesiones." },
+        { "tipo": "h2", "texto": "Consejos prácticos" },
+        { "tipo": "ul", "items": ["Reserva un momento fijo del día para tus ejercicios.", "Prioriza la calidad del movimiento sobre la cantidad de repeticiones.", "Anota cómo te sientes para comentarlo en la siguiente sesión.", "Si algún ejercicio te genera dudas o molestias, consulta antes de continuar."] },
+        { "tipo": "p", "texto": "Evita copiar rutinas pensadas para otras personas: lo adecuado para ti depende de una valoración individual." }
+      ]
+    },
+    {
+      "slug": "bienestar-y-movimiento",
+      "titulo": "Bienestar y movimiento: una relación que se cultiva",
+      "categoria": "Bienestar y movimiento",
+      "fecha": "2026-08-19",
+      "resumen": "Moverte con regularidad es una de las formas más accesibles de cuidar de ti. Empieza por lo que disfrutes.",
+      "foto": "img/blog/bienestar.webp",
+      "fotoAlt": "Persona relajada y sonriente sobre una almohada",
+      "minutos": 3,
+      "contenido": [
+        { "tipo": "p", "texto": "La actividad física regular forma parte de un estilo de vida saludable. La OMS recuerda que cualquier cantidad de actividad física es mejor que ninguna." },
+        { "tipo": "h2", "texto": "Cómo empezar" },
+        { "tipo": "ul", "items": ["Elige actividades que te resulten agradables.", "Empieza poco a poco y aumenta de forma gradual.", "Combina distintos tipos de movimiento a lo largo de la semana."] },
+        { "tipo": "p", "texto": "Si tienes una lesión, una condición de salud o hace tiempo que no realizas actividad física, consulta con un profesional antes de comenzar." }
+      ],
+      "fuentes": [{ "texto": "Organización Mundial de la Salud (2020). Directrices de la OMS sobre actividad física y hábitos sedentarios.", "url": "https://www.who.int/publications/i/item/9789240015128" }]
+    }
+  ]
+}

@@ -65,7 +65,7 @@ export function Navbar() {
       )}
     >
       <nav aria-label="Navegación principal" className="container flex h-[var(--nav-height)] items-center justify-between gap-4">
-        <a href="/#inicio" className="rounded-full" aria-label={`${siteConfig.professional.name}, ir al inicio`}>
+        <a href="/#inicio" className="min-w-0 rounded-full" aria-label={`${siteConfig.professional.name}, ir al inicio`}>
           <Logo />
         </a>
 
@@ -96,7 +96,7 @@ export function Navbar() {
           })}
         </ul>
 
-        <div className="flex items-center gap-2">
+        <div className="flex shrink-0 items-center gap-2">
           <a href="/#reservar" className="btn-primary hidden min-h-[44px] px-6 sm:inline-flex">
             <CalendarHeart className="h-4 w-4" aria-hidden="true" />
             Reservar cita

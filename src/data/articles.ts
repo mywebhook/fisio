@@ -20,7 +20,7 @@ export const articles: Article[] = [
     category: "Salud postural",
     date: "2026-10-28",
     excerpt: "Pasar muchas horas frente a una pantalla es habitual. Pequeños cambios a lo largo del día pueden ayudarte a sentirte mejor.",
-    image: "/images/blog/postura.svg",
+    image: "/images/blog/postura.jpg",
     imageAlt: "Persona trabajando en un escritorio con buena iluminación",
     readingMinutes: 4,
     body: [
@@ -44,7 +44,7 @@ export const articles: Article[] = [
     category: "Prevención de lesiones",
     date: "2026-10-14",
     excerpt: "Preparar el cuerpo antes de la actividad física es un hábito sencillo que te ayuda a empezar con mayor control.",
-    image: "/images/blog/prevencion.svg",
+    image: "/images/blog/prevencion.jpg",
     imageAlt: "Persona calentando antes de correr",
     readingMinutes: 3,
     body: [
@@ -65,7 +65,7 @@ export const articles: Article[] = [
     category: "Movilidad",
     date: "2026-09-30",
     excerpt: "Mantenerte en movimiento no requiere grandes rutinas. Integrar la movilidad en tu día puede ser más fácil de lo que crees.",
-    image: "/images/blog/movilidad.svg",
+    image: "/images/blog/movilidad.jpg",
     imageAlt: "Persona estirándose en una sala luminosa",
     readingMinutes: 3,
     body: [
@@ -86,7 +86,7 @@ export const articles: Article[] = [
     category: "Recuperación física",
     date: "2026-09-16",
     excerpt: "Conocer cómo suele ser un proceso de rehabilitación ayuda a vivirlo con más tranquilidad y constancia.",
-    image: "/images/blog/recuperacion.svg",
+    image: "/images/blog/recuperacion.jpg",
     imageAlt: "Sesión de rehabilitación acompañada por una fisioterapeuta",
     readingMinutes: 4,
     body: [
@@ -108,7 +108,7 @@ export const articles: Article[] = [
     category: "Ejercicio terapéutico",
     date: "2026-09-02",
     excerpt: "Los ejercicios que te indica tu fisioterapeuta son parte del tratamiento. Te compartimos algunas claves para mantener la constancia.",
-    image: "/images/blog/ejercicio.svg",
+    image: "/images/blog/ejercicio.jpg",
     imageAlt: "Esterilla y bandas elásticas preparadas para ejercitarse en casa",
     readingMinutes: 3,
     body: [
@@ -129,7 +129,7 @@ export const articles: Article[] = [
     category: "Bienestar y movimiento",
     date: "2026-08-19",
     excerpt: "Moverte con regularidad es una de las formas más accesibles de cuidar de ti. Empieza por lo que disfrutes.",
-    image: "/images/blog/bienestar.svg",
+    image: "/images/blog/bienestar.jpg",
     imageAlt: "Persona caminando al aire libre",
     readingMinutes: 3,
     body: [

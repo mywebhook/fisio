@@ -31,10 +31,10 @@ export function Contact() {
           description="Escríbeme, llámame o visítame en el consultorio. Elige la forma que te resulte más cómoda."
         />
 
-        <div className="mt-14 grid gap-6 lg:mt-16 lg:grid-cols-12">
+        <div className="mt-14 grid grid-cols-1 gap-6 lg:mt-16 lg:grid-cols-12">
           {/* Información */}
-          <Reveal className="space-y-6 lg:col-span-5">
-            <ul className="grid gap-3">
+          <Reveal className="min-w-0 space-y-6 lg:col-span-5">
+            <ul className="grid grid-cols-1 gap-3">
               {channels.map(({ href, label, value, Icon, external }) => (
                 <li key={label}>
                   <a
@@ -93,7 +93,7 @@ export function Contact() {
           </Reveal>
 
           {/* Mapa y acciones */}
-          <Reveal className="flex flex-col gap-6 lg:col-span-7" delay={80}>
+          <Reveal className="flex min-w-0 flex-col gap-6 lg:col-span-7" delay={80}>
             <div className="relative aspect-[4/3] overflow-hidden rounded-3xl bg-sage-soft sm:aspect-[16/10]">
               {mapReady ? (
                 <iframe

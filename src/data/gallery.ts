@@ -1,11 +1,11 @@
 import type { GalleryImage } from "@/types/content";
 
-/** Galería de instalaciones. Reemplaza `src` por fotografías reales del consultorio. */
+/** Galería de instalaciones. Fotos de demostración (Pexels): reemplázalas por fotos reales del consultorio. */
 export const gallery: GalleryImage[] = [
-  { id: "consultorio", src: "/images/gallery/consultorio.svg", alt: "Vista general del consultorio", caption: "Consultorio" },
-  { id: "camillas", src: "/images/gallery/camillas.svg", alt: "Camillas de tratamiento", caption: "Camillas de tratamiento" },
-  { id: "equipamiento", src: "/images/gallery/equipamiento.svg", alt: "Equipamiento de fisioterapia", caption: "Equipamiento" },
-  { id: "rehabilitacion", src: "/images/gallery/rehabilitacion.svg", alt: "Espacio de rehabilitación", caption: "Espacio de rehabilitación" },
-  { id: "ejercicios", src: "/images/gallery/ejercicios.svg", alt: "Área de ejercicios", caption: "Área de ejercicios" },
-  { id: "ambiente", src: "/images/gallery/ambiente.svg", alt: "Ambiente de atención", caption: "Ambiente de atención" },
+  { id: "sala", src: "/images/gallery/sala.jpg", alt: "Sala de tratamiento luminosa con camilla", caption: "Sala de tratamiento" },
+  { id: "camilla", src: "/images/gallery/camilla.jpg", alt: "Paciente realizando ejercicios en la camilla", caption: "Camilla de tratamiento" },
+  { id: "evaluacion", src: "/images/gallery/evaluacion.jpg", alt: "Zona de evaluación postural junto a la ventana", caption: "Zona de evaluación" },
+  { id: "detalles", src: "/images/gallery/detalles.jpg", alt: "Detalles decorativos del consultorio en tonos claros", caption: "Detalles del espacio" },
+  { id: "recepcion", src: "/images/gallery/recepcion.jpg", alt: "Escritorio de recepción con computadora", caption: "Recepción" },
+  { id: "ambiente", src: "/images/gallery/ambiente.jpg", alt: "Sesión de fisioterapia en un ambiente tranquilo", caption: "Ambiente de atención" },
 ];

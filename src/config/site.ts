@@ -3,11 +3,10 @@
  *  CONFIGURACIÓN PRINCIPAL — DATOS DE LA PROFESIONAL
  * ============================================================
  *
- * Edita este archivo con la información REAL de la fisioterapeuta.
- *
- * Convención: todo texto entre corchetes [así] es un marcador provisional.
- *  - En modo desarrollo aparece un aviso con la cantidad de marcadores pendientes.
- *  - Los marcadores no se incluyen en los datos estructurados de SEO.
+ * ⚠️ PERFIL DE DEMOSTRACIÓN: todos los datos de este archivo son FICTICIOS
+ * (persona, formación, dirección, teléfono, correo y precios). Sirven para
+ * mostrar el sitio completo. Reemplázalos por los datos reales antes de publicar.
+ * La plantilla vacía, con marcadores [entre corchetes], está en la rama `version_init`.
  *
  * Campos vacíos ("") ocultan automáticamente el elemento correspondiente
  * (por ejemplo, una red social o el número de colegiatura).
@@ -19,78 +18,80 @@ export const siteConfig = {
   locale: "es",
 
   professional: {
-    name: "Nombre Apellido",
-    /** Nombre corto para mensajes cercanos ("Hola, Nombre"). */
-    firstName: "Nombre",
+    name: "Valeria Montaño",
+    /** Nombre corto para mensajes cercanos ("Hola, Valeria"). */
+    firstName: "Valeria",
     title: "Fisioterapeuta",
     /** Número de colegiatura / registro profesional. Vacío = no se muestra. */
-    license: "",
+    license: "MP-4821",
     tagline: "Recupera tu movimiento, mejora tu bienestar y vuelve a disfrutar cada momento.",
     intro:
       "Atención fisioterapéutica personalizada, enfocada en acompañarte durante tu proceso de recuperación y mejorar tu calidad de vida.",
   },
 
   photos: {
-    /** Reemplaza estas imágenes por fotografías profesionales (JPG/WebP, mínimo 1200 px de alto). */
-    hero: "/images/hero-portrait.svg",
-    heroAlt: "Retrato profesional de la fisioterapeuta",
-    about: "/images/about-portrait.svg",
-    aboutAlt: "La fisioterapeuta en su consultorio",
+    /** Fotografías de demostración (Pexels, licencia libre). Reemplázalas por fotos propias. */
+    hero: "/images/hero.jpg",
+    heroAlt: "Valeria Montaño, fisioterapeuta, durante una sesión de tratamiento",
+    about: "/images/about.jpg",
+    aboutAlt: "Valeria Montaño guiando un ejercicio de movilidad en su consultorio",
   },
 
   about: {
     heading: "Acompañarte en cada paso de tu recuperación",
     /** Biografía en primera persona. Usa un tono humano y cercano. */
     bio: [
-      "[Escribe aquí una presentación breve en primera persona: quién eres, por qué elegiste la fisioterapia y qué te motiva a acompañar a tus pacientes.]",
-      "[Un segundo párrafo opcional sobre tu forma de trabajar: cómo es una primera sesión, cómo explicas el proceso y cómo haces seguimiento.]",
+      "Soy Valeria, fisioterapeuta. Elegí esta profesión porque me apasiona ver cómo las personas recuperan la confianza en su cuerpo y vuelven a hacer lo que disfrutan: caminar sin molestias, volver a entrenar o jugar con sus hijos.",
+      "En cada primera sesión dedico tiempo a escucharte y a entender qué te ocurre. Te explico lo que encontramos, definimos juntos los objetivos y te acompaño con un plan claro, revisando tu evolución en cada encuentro.",
     ],
     education: [
-      { title: "[Título universitario en Fisioterapia]", institution: "[Universidad]", year: "[Año]" },
-      { title: "[Especialización, posgrado o curso relevante]", institution: "[Institución]", year: "[Año]" },
+      { title: "Licenciatura en Fisioterapia y Kinesiología", institution: "Universidad del Valle Andino", year: "2014" },
+      { title: "Diplomado en Terapia Manual Ortopédica", institution: "Instituto Andino de Ciencias del Movimiento", year: "2017" },
+      { title: "Curso de Rehabilitación de Lesiones Deportivas", institution: "Escuela Latinoamericana de Fisioterapia", year: "2019" },
     ],
     experience: [
-      { role: "[Cargo o área de práctica]", place: "[Centro, clínica o consulta privada]", period: "[Periodo]" },
+      { role: "Fisioterapeuta", place: "Consulta privada", period: "2018 – actualidad" },
+      { role: "Fisioterapeuta de planta", place: "Centro de Rehabilitación Integral Los Pinos", period: "2014 – 2018" },
     ],
     philosophy:
-      "[Describe tu filosofía de atención. Por ejemplo: cómo escuchas a cada paciente, la importancia de explicar cada paso y de adaptar el trabajo a sus objetivos.]",
+      "Creo en una fisioterapia cercana y bien explicada. Cada persona es distinta, por eso adapto el tratamiento a tu historia, tus objetivos y tu ritmo, y te enseño herramientas para que seas protagonista de tu recuperación.",
     commitment:
-      "[Describe tu compromiso con los pacientes: puntualidad, comunicación clara, respeto, confidencialidad, seguimiento.]",
+      "Puntualidad, comunicación clara, respeto y confidencialidad. Te acompaño con seguimiento cercano y siempre te digo con honestidad qué podemos esperar del proceso.",
   },
 
   contact: {
-    /** Número de WhatsApp en formato internacional SIN "+" ni espacios. Ej.: 34600111222 */
-    whatsapp: "00000000000",
+    /** Número de WhatsApp en formato internacional SIN "+" ni espacios. ⚠️ Ficticio. */
+    whatsapp: "59170000000",
     /** Teléfono tal como se mostrará en pantalla. */
-    phoneDisplay: "[+00 000 000 000]",
+    phoneDisplay: "+591 700 00000",
     /** Teléfono para enlaces tel: (formato internacional con +). */
-    phone: "+00000000000",
-    email: "[correo@dominio.com]",
+    phone: "+59170000000",
+    email: "contacto@valeriamontanofisio.com",
     address: {
-      street: "[Calle y número]",
-      district: "[Barrio / zona]",
-      city: "[Ciudad]",
-      region: "[Provincia / Estado]",
+      street: "Av. Los Álamos 1245, consultorio 3",
+      district: "Zona Norte",
+      city: "Cochabamba",
+      region: "Cochabamba",
       postalCode: "",
-      country: "[País]",
+      country: "Bolivia",
     },
     /** Texto que se busca en Google Maps (dirección o nombre del consultorio). */
-    mapsQuery: "[Dirección completa del consultorio, Ciudad]",
+    mapsQuery: "Cochabamba, Bolivia",
     /** Enlace directo a la ficha de Google Maps (opcional; si está vacío se genera desde mapsQuery). */
     mapsUrl: "",
     /** Cómo llegar: indicaciones de referencia, transporte o estacionamiento. */
-    directions: "[Indicaciones para llegar: referencias, transporte público, estacionamiento.]",
+    directions: "A dos cuadras de la plaza principal de la Zona Norte. Hay estacionamiento en la calle y paradas de transporte público cercanas.",
     hours: [
-      { days: "Lunes a viernes", time: "[00:00 – 00:00]" },
-      { days: "Sábados", time: "[00:00 – 00:00]" },
+      { days: "Lunes a viernes", time: "08:00 – 19:00" },
+      { days: "Sábados", time: "08:00 – 13:00" },
       { days: "Domingos y feriados", time: "Cerrado" },
     ],
     homeVisits: {
       enabled: true,
       /** Zonas en las que atiende a domicilio. */
-      areas: "[Zonas o barrios de cobertura]",
+      areas: "Zona Norte, Queru Queru, Cala Cala y Sarco",
     },
-    whatsappDefaultMessage: "Hola, vi tu página web y me gustaría recibir información sobre una consulta de fisioterapia.",
+    whatsappDefaultMessage: "Hola, Valeria. Vi tu página web y me gustaría recibir información sobre una consulta de fisioterapia.",
   },
 
   /** Deja una red vacía ("") para ocultarla. */
@@ -108,21 +109,22 @@ export const siteConfig = {
   },
 
   seo: {
-    title: "Fisioterapeuta en [Ciudad]",
+    title: "Fisioterapeuta en Cochabamba",
     description:
-      "Fisioterapia personalizada en [Ciudad]: rehabilitación física, fisioterapia deportiva y terapia manual. Solicita tu cita por WhatsApp.",
+      "Fisioterapia personalizada en Cochabamba: rehabilitación física, fisioterapia deportiva y terapia manual, en consultorio y a domicilio. Solicita tu cita por WhatsApp.",
     keywords: [
-      "fisioterapeuta en [Ciudad]",
-      "fisioterapia en [Ciudad]",
+      "fisioterapeuta en Cochabamba",
+      "fisioterapia en Cochabamba",
       "rehabilitación física",
       "fisioterapia deportiva",
       "terapia manual",
+      "fisioterapia a domicilio",
     ],
   },
 
   legal: {
     /** Responsable del tratamiento de datos para el aviso de privacidad. */
-    dataController: "[Nombre completo y documento de identidad / razón social]",
+    dataController: "Valeria Montaño Rojas",
     lastUpdated: "2026-11-07",
   },
 } as const;
