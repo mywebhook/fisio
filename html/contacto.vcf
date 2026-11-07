@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Montaño Rojas;Valeria;;;
+FN:Valeria Montaño
+TITLE:Fisioterapeuta
+TEL;TYPE=CELL,VOICE:+59170000000
+EMAIL;TYPE=INTERNET:contacto@valeriamontanofisio.com
+ADR;TYPE=WORK:;;Av. Los Álamos 1245\, consultorio 3;Cochabamba;Cochabamba;;Bolivia
+URL:https://fisio.pages.dev/
+NOTE:Fisioterapeuta en Cochabamba. Atención en consultorio y a domicilio.
+END:VCARD

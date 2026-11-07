@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://fisio.pages.dev/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://fisio.pages.dev/blog.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fisio.pages.dev/blog.html?a=pausas-activas-trabajo-escritorio</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fisio.pages.dev/blog.html?a=calentamiento-prevencion-lesiones</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fisio.pages.dev/blog.html?a=movilidad-dia-a-dia</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fisio.pages.dev/blog.html?a=que-esperar-recuperacion-fisica</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fisio.pages.dev/blog.html?a=ejercicio-terapeutico-en-casa</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fisio.pages.dev/blog.html?a=bienestar-y-movimiento</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fisio.pages.dev/privacidad.html</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
+</urlset>
